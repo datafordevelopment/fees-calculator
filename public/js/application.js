@@ -31,6 +31,13 @@ var costs = [
 			cost: 0.25,
 			maxAmount: 5000
 		}
+	},
+	{
+		name: 'ipn',
+		label: 'Intuit Payment Network',
+		url: 'https://ipn.intuit.com/',
+		variable: 0,
+		fixed: 0.50
 	}
 ];
 
