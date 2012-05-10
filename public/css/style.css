@@ -503,6 +503,18 @@ body {
 #results .result.paypal .name {
   background: url(../images/paypal.png) no-repeat 50% 50%;
 }
+#results .result.ipn .name {
+  background: url(../images/ipn.png) no-repeat 50% 5px;
+}
+#results .result.stripe .name {
+  background: url(../images/stripe.png) no-repeat 50% 35px;
+}
+#results .result.samurai .name {
+  background: url(../images/samurai.png) no-repeat 50% 33px;
+}
+#results .result.braintree .name {
+  background: url(../images/braintree.png) no-repeat 50% 25px;
+}
 #results .result .right {
   float: left;
   width: 590px;

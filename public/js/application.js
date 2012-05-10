@@ -34,10 +34,31 @@ var costs = [
 	},
 	{
 		name: 'ipn',
-		label: 'Intuit Payment Network',
+		label: 'Intuit',
 		url: 'https://ipn.intuit.com/',
 		variable: 0,
 		fixed: 0.50
+	},
+	{
+		name: 'stripe',
+		label: 'Stripe',
+		variable: 2.9,
+		fixed: 0.30,
+		url: 'http://www.stripe.com'
+	},
+	{
+		name: 'samurai',
+		label: 'Samurai',
+		variable: 2.3,
+		fixed: 0.30,
+		url: 'http://samurai.feefighters.com'
+	},
+	{
+		name: 'braintree',
+		label: 'Braintree',
+		variable: 2.29,
+		fixed: 0.30,
+		url: 'http://www.braintreepayments.com'
 	}
 ];
 
