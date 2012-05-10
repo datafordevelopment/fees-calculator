@@ -143,6 +143,14 @@ $(function() {
 	$('.amount:visible')
 		.filter(':visible').focus();
 
+	// Auto format amount inputs
+	$('.amount').on('blur', function() {
+		var el = $(this),
+			val = (+parsePrice(el.val())).formatMoney(2, '.', ',');
+
+		el.val('$' + val);
+	});
+
 	// Was amount specifed in URL? Auto-trigger a calculation
 	if(window.location.hash.indexOf('#compare') !== -1) {
 		var params = window.location.hash.split('/'),
